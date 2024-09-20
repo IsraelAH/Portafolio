@@ -1,0 +1,411 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{% static 'static.css' %}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
+
+    <script src="{% static 'js/barras.js'%}"></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="name">
+            <img alt="Profile picture of Israel Aguilar Hernandez" height="50"
+                src="{% static 'imagenes/IA.jpg'%}"
+                width="50" />
+            <h1>ISRAEL AGUILAR HERNANDEZ</h1>
+        </div>
+        <nav>
+            <a href="#A" class="cta">
+                <span href="#A">Inicio</span>
+                <svg width="15px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </a>
+            <a href="#About" class="cta">
+                <span>Acerca de mi</span>
+                <svg width="15px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </a>
+            <a href="#Experience" class="cta">
+                <span>Experiencia</span>
+                <svg width="15px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </a>
+            <a href="#Projects" class="cta">
+                <span>Proyectos</span>
+                <svg width="15px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </a>
+        </nav>
+    </header>
+
+    <!-- Sidebar Section -->
+    <div class="sidebar">
+        <button class="link">
+            <a href="https://mx.linkedin.com/in/israel-aguilar-hern%C3%A1ndez-09026a328?trk=people-guest_people_search-card"><i class="fab fa-linkedin"></i></a>
+        </button>
+        <button class="link">
+            <a href="{% static 'imagenes/CV_Israel_Aguilar_Hernandez.pdf'%}"><i class="bi bi-envelope-fill"></i></a>
+        </button>
+        <button class="link">
+            <a href="https://github.com/IsraelAH"><i class="fab fa-github"></i></a>
+        </button>
+    </div>
+
+    <!-- Main Section -->
+    <section id="A">
+        <main class="main">
+            <h1>HEY, SOY ISRAEL AGUILAR HERNANDEZ</h1>
+            <div class="Columnas">
+                <p>Ingeniero en Desarrollo y Gestión de Software recién graduado, apasionado por el aprendizaje continuo
+                    y
+                    la adopción de</p>
+                <p>nuevas tecnologías. </p>
+            </div>
+            <a href="{% static 'imagenes/CV_Israel_Aguilar_Hernandez.pdf'%}" download="CV_Israel_Aguilar_Hernandez.pdf">
+            <div class="button" data-tooltip="Descargar">
+                <div class="button-wrapper">
+                    <div class="text">Descargar CV</div>
+                    <!--<a class="btn" href="#">PROJECTS</a>-->
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2em"
+                            preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17">
+                            </path>
+                            <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            </a>
+            <div class="scrolldown" style="--color: skyblue">
+                <div class="chevrons">
+                    <div class="chevrondown"></div>
+                    <div class="chevrondown"></div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="About">
+        <div class="backgroud-wrapper">
+            <div class="container">
+                <div class="header2">
+                    <h1>ACERCA DE MI</h1>
+                    <hr>
+                    <p>Aquí encontrará más información sobre mí, lo que hago y mis habilidades actuales, principalmente en términos de
+                    Programación y tecnología</p>
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h2>¡Conóceme!</h2>
+                        <p><strong> Ingeniero en Desarrollo y Gestión de Software </strong> recién graduado con una
+                            profunda
+                            pasión por el aprendizaje continuo y la
+                            adaptación a nuevas tecnologías.</p>
+                        <p>Durante mi formación, no solo adquirí habilidades sólidas en desarrollo web, incluyendo HTML,
+                            CSS, JavaScript y
+                            frameworks como Django, sino que también desarrollé un fuerte interés por explorar y dominar
+                            nuevas herramientas y
+                            tecnologías emergentes.
+                        </p>
+                        <p>Busco una oportunidad en un entorno dinámico que valore la innovación y el crecimiento
+                            personal,
+                            donde pueda aplicar mi
+                            conocimiento actual y seguir expandiendo mis habilidades en un campo en constante evolución.
+                        </p>
+                    </div> 
+                    <div class="right">
+                        <h2>Mis habilidades</h2>
+                                <div class="skills">
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-inner" style="width: 30%;"></div>
+                                        <span class="skill-bar-label">Python</span>
+                                        <span class="skill-bar-percentage">30%</span>
+                                    </div>
+                                    <hr>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-inner1" style="width: 20%;"></div>
+                                        <span class="skill-bar-label">Java</span>
+                                        <span class="skill-bar-percentage">20%</span>
+                                    </div>
+                                    <hr>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-inner2" style="width: 40%;"></div>
+                                        <span class="skill-bar-label">Pascal</span>
+                                        <span class="skill-bar-percentage">40%</span>
+                                    </div>
+                                    <hr>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-inner2" style="width: 25%;"></div>
+                                        <span class="skill-bar-label">Kotlin</span>
+                                        <span class="skill-bar-percentage">25%</span>
+                                    </div>
+                                    <hr>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-inner2" style="width: 30%;"></div>
+                                        <span class="skill-bar-label">Html</span>
+                                        <span class="skill-bar-percentage">30%</span>
+                                    </div>
+                                    <hr>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-inner2" style="width: 30%;"></div>
+                                        <span class="skill-bar-label">CSS</span>
+                                        <span class="skill-bar-percentage">30%</span>
+                                    </div>
+                                    <hr>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-inner2" style="width: 20%;"></div>
+                                        <span class="skill-bar-label">JavaScript</span>
+                                        <span class="skill-bar-percentage">20%</span>
+                                    </div>
+                                    <hr>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-inner2" style="width: 20%;"></div>
+                                        <span class="skill-bar-label">React</span>
+                                        <span class="skill-bar-percentage">20%</span>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+                <div class="tools">
+                    <h2>TECNOLOGIAS</h2>
+                    <div>
+                        <div class="item">
+                        <i class="fas fa-code"></i> <span>VS Code</span>
+                        </div>
+                        <div class="item">
+                            <i class="fab fa-git-alt"></i> <span>Github</span>
+                        </div>
+                        <div class="item">
+                            <i class="bi bi-r-square-fill"></i> <span>RadStudio</span>
+                        </div>
+                        <div class="item">
+                            <i class="bi bi-server"></i> <span>SQL</span>
+                        </div>
+                        <div class="item">
+                            <i class="bi bi-android"></i> <span>Android Studio</span>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experience-Section -->
+    <section id="Experience">
+        <div class="backgroud-wrapper">
+            <div class="container">
+                <div class="header2">
+                    <h1>EXPERIENCIA</h1>
+                    <hr>
+                    <p>Resumen de mi trayectoria en desarrollo de software, destacando proyectos, tecnologías utilizadas y logros clave en cada
+                    rol.</p>
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h3>Desarrollador Frontend y Backend</h3>
+                        <span class="experience-dates">MJ SOLUCIONES EN TI(PRACTICAS PROFESIONALES) 2022</span>
+                        <p class="experience-description"><strong>Creación de su sitio web principal y punto de venta de
+                                accesorios de software y redes digitales
+                                para la empresa MJ Soluciones TI
+                                Desarrolle la pagina web y el punto de venta con Python y su base de datos con sql
+                                server.</strong></p>
+                    </div>
+                    <div class="card">
+                        <div class="bg"></div>
+                        <img class="imagen3" src="{% static 'imagenes/mj.png'%}" alt="Descripcion" width="350"
+                            height="200">
+                        <div class="blob"></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h3>Desarrollador Full Stack</h3>
+                        <span class="experience-dates">SIRE, ENERO 2024 - SEPTIEMBRE 2024</span>
+                        <p class="experience-description"><strong> Inicie como practicante, apoyando en el desarrollo
+                                web y
+                                algunos errores en su versión de escritorio hasta mayo del 2024
+                                y posteriormente me quede como empleado trabajando en desarrollo web y en su versión de
+                                escritorio.
+                                Desarrolle módulos nuevos en web utilizando el lenguaje pascal con el framework unigui
+                                y estuve trabajando en su versión de escritorio con el lenguaje de pascal.
+                                Además de también hacer pruebas a todos los módulos que se desarrollaron.</strong></p>
+                    </div>
+                    <div class="card">
+                        <h2></h2>
+                        <div class="bg"></div>
+                        <img class="imagen" src="https://www.sire.com.mx/assets/images/logo-sire-web-280x280.png"
+                            alt="Descripcion" width="350" height="190">
+                        <div class="blob"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section-Projects -->
+    <section id="Projects">
+        <div class="backgroud-wrapper">
+            <div class="container">
+                <div class="header2">
+                    <h1>PROYECTOS</h1>
+                    <hr>
+                    <p>Aquí encontrarás algunos de los proyectos personales y de clientes que he creado con cada proyecto.</p>
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h3>Desarrollador Frontend y Backend</h3>
+                        <span class="experience-dates">Creacion de pagina web y punto de venta MJ Soluciones en
+                            TI</span>
+                        <p class="experience-description">Trabaje en la creacion de el sitio web y punto de venta de la
+                            empresa
+                            MJ Soluciones en TI, trabaje con Python, Html, CSS y la base de datos se manejo con SQL
+                            Server.
+                        </p>
+                    </div>
+                    <div class="laptop">
+                        <div class="screen">
+                            <div class="header3"></div>
+                            <h2></h2>
+                            <img class="imagen2" src="{% static 'imagenes/mj.png'%}" alt="Descripcion" width="520"
+                                height="319">
+                        </div>
+                        <div class="keyboard"></div>
+                    </div>
+                </div>
+                <hr>
+                <hr>
+                <div class="content">
+                    <div class="left">
+                        <h3>Desarrollador Full Stack</h3>
+                        <span class="experience-dates">SIRE Enero 2024 - Septiembre 2024</span>
+                        <p class="experience-description">Trabaje en el area de web, migrando sus modulos de su version
+                            de
+                            escritorio
+                            a la version web, esto se hacia con las tecnologias de pascal y el framework Unigui ademas
+                            de
+                            que despues de pasar
+                            mi periodo de practicas comenze a trabajar en su version de escritorio resolviendo errores
+                            de
+                            sus proyectos
+                            que se encuentran en productivo, se trabajaba con la tecnologia de pascal.
+                        </p>
+                    </div>
+                    <div class="laptop">
+                        <div class="screen">
+                            <div class="header3"></div>
+                            <h2></h2>
+                            <img class="imagen2" src="https://www.sire.com.mx/assets/images/logo-sire-web-280x280.png"
+                                alt="Descripcion" width="350" height="190">
+                        </div>
+                        <div class="keyboard"></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h3>Desarrollador Full Stack</h3>
+                        <span class="experience-dates">2023</span>
+                        <p class="experience-description">Sistema de inventario y facturacion hecho con Django
+
+                            El sistema permite realizar operaciones basicas de inventario y facturacion:
+
+                            -Productos, clientes, proveedores, pedidos
+
+                            -Reportes de facturas en PDF Y CSV
+
+                            -Ingreso de usuarios en varios niveles
+
+                            -Cambio de IVA y otras opciones generales</p>
+                    </div>
+                    <div class="laptop">
+                        <div class="screen">
+                            <div class="header3"></div>
+                            <h2></h2>
+                            <img class="imagen2" src="{% static 'imagenes/Inventario.png'%}" alt="Descripcion"
+                                width="520" height="319">
+                        </div>
+                        <div class="keyboard"></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h3>Desarrollador Full Stack</h3>
+                        <span class="experience-dates">2023</span>
+                        <p class="experience-description">Sistema de búsqueda de películas clásicas desarrollado en Visual Studio Code, utilizando JavaScript y React, integrando
+                        la API de OMDb para obtener información de las películas.
+                        </p>
+                    </div>
+                    <div class="laptop">
+                        <div class="screen">
+                            <div class="header3"></div>
+                            <h2></h2>
+                            <img class="imagen2" src="{% static 'imagenes/Pelicula.png'%}" alt="Descripcion" width="520" height="319">
+                        </div>
+                        <div class="keyboard"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Chat Section -->
+    <!--<div class="chat">
+        <i class="fas fa-comment"></i>
+        <span>Chat with me <span role="img" aria-label="wave">👋</span></span>
+    </div>-->
+    <!-- Footer -->
+    <div class="footer">
+        <div class="content">
+            <div class="left">
+                <h2>ISRAEL AGUILAR HERNANDEZ</h2>
+                <p>Ingeniero en Desarrollo y Gestión de Software recién graduado, apasionado por el aprendizaje continuo
+                    y
+                    la adopción de nuevas tecnologías.</p>
+            </div>
+
+
+            <div class="right">
+                <div class="footer-right">
+                    <h2>Social</h2>
+                    <div class="social">
+                        <a href="{% static 'imagenes/CV_Israel_Aguilar_Hernandez.pdf'%}"><i
+                                class="bi bi-envelope-fill"></i><span> israelaguilar2332@gmail.com</span></a>
+                        <a href="https://mx.linkedin.com/in/israel-aguilar-hern%C3%A1ndez-09026a328?trk=people-guest_people_search-card"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/IsraelAH"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">
+                © Copyright 2024 . Made by <a href="#">Israel Aguilar Hernandez</a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
